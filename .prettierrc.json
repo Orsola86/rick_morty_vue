@@ -1,0 +1,29 @@
+{
+  "singleQuote": false,
+  "endOfLine": "lf",
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "semi": true,
+  "printWidth": 80,
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^next",
+    "^react",
+    "^@chakra-ui",
+    "^@/constants/(.*)$",
+    "^@/utils/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/api/(.*)$",
+    "^@/model/(.*)$",
+    "^@/store/(.*)$",
+    "^@/atoms/(.*)$",
+    "^@/components/(.*)$",
+    "^@/assets/(.*)$",
+    "^@/styles/(.*)$",
+    "^[./]"
+  ]
+}
